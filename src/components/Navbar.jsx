@@ -4,6 +4,7 @@ import userContext from '../context/UserContext'
 const Navbar = () => {
     const { isUser, setIsUser } = useContext(userContext)
     // console.log(names);
+
     return (
         <div>
             <ul>

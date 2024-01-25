@@ -7,7 +7,7 @@ const Card = ({ title, deleteTodo, editTodo, index }) => {
 
     const editedVal = useRef()
 
-    const saveEditTodo = (e ,index) => {
+    const saveEditTodo = (e ) => {
         e.preventDefault()
         // console.log(editedVal.current.value);
         editTodo(index ,editedVal.current.value)
